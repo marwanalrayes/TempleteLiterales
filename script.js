@@ -10,6 +10,7 @@ const user ={
     age:22,
     address:"Gaza"
 }
+//Coding Style  / style guide rules
 function printUserByLine(userProp){
     const{name,age,address} = userProp
     console.log(`your name is : ${name}`);
@@ -17,3 +18,9 @@ function printUserByLine(userProp){
     console.log(`your address is : ${address}`);
 }
 printUserByLine(user)
+
+// ------Coding Style  / style guide rules-----------------------------
+//-------how can i make number of array by object style----------------
+const number =[1,2,3,4]
+const [firstNumber,secoundNumber,theardNumber] =number
+console.log(theardNumber)
