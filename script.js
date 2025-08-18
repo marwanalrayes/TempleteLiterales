@@ -19,8 +19,20 @@ function printUserByLine(userProp){
 }
 printUserByLine(user)
 
-// ------Coding Style  / style guide rules-----------------------------
-//-------how can i make number of array by object style----------------
+// ------ Coding Style  / style guide rules-----------------------------
+//------- how can i make number of array by object style----------------
 const number =[1,2,3,4]
-const [firstNumber,secoundNumber,theardNumber] =number
-console.log(theardNumber)
+const [firstNumber,secoundNumber,thirdNumber] =number
+console.log(thirdNumber)
+
+// ------ another Example ----------------------------------------------
+const users = [
+    { name: "marwan", age: 22 },
+    { name: "mahran", age: 20 },
+    { name: "dema", age: 10 },
+];
+const [firstMember,,thirdMember]=users
+console.log(firstMember);
+console.log(thirdMember);
+
+// ------ swaping ------------------------------------------------------
