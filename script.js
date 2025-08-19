@@ -36,3 +36,33 @@ console.log(firstMember);
 console.log(thirdMember);
 
 // ------ swaping ------------------------------------------------------
+// in any programming language
+// temp <= firstvar
+// firstvar <= secoundvar
+// secoundvar <= temp
+// in any ES6
+//  ----- firstvar------------------------------------------------------
+// firstvar
+// firstvar <= secoundvar
+// secoundvar <= firstvar
+// ----- Example in array ----------------------------------------------
+const numbers = [1 , 2];
+[numbers[0], numbers[1]] = [numbers[1], numbers[0]]
+console.log(numbers)
+ // ----- Example natural variables ------------------------------------
+// ----- basic swap ----------------------------------------------------
+let a=1
+let b=2
+let temp = a //temp =1 , a= 1 , b =2
+a = b //temp = 1 , a = 2 , b = 2
+b = temp //temp = 1 , a = 2 , b = 1
+console.log(a,b)
+
+// ----- ES6 swap ------------------------------------------------------
+let a1 = 1
+let b1 = 2
+[a,b]=[b,a]
+console.log(a,b)
+/* ملاحظة اذا بدك تعمل سواب دايما يكون
+تعريفك للفاريابل لت مش كونست لانو الكونست
+للثوابت*/
