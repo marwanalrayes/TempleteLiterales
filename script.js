@@ -66,3 +66,11 @@ console.log(a,b)
 /* ملاحظة اذا بدك تعمل سواب دايما يكون
 تعريفك للفاريابل لت مش كونست لانو الكونست
 للثوابت*/
+
+// ----- defensive programming-------------------------------------------
+// function greetUser (name = `unknown user`)  this name is defult parameter
+function greetUser (name){
+    console.log(`hello ${name || `unknown user`}`)
+}
+greetUser()
+
